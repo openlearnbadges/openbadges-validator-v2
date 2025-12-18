@@ -3,7 +3,7 @@
 # Installing
 
 ```bash
-$ npm install openbadges-validator-v1
+$ npm install openbadges-validator-v2
 ```
 
 # Usage
@@ -12,7 +12,7 @@ The following documentation assumes the module has been imported
 like so:
 
 ```javascript
-var validator = require('openbadges-validator-v1');
+var validator = require('openbadges-validator-v2');
 ```
 
 ### validator(input, callback, version, verificationType)

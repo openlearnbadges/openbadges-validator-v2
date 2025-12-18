@@ -1,40 +1,40 @@
 {
-  "name": "openbadges-validator-v1",
-  "version": "1.1.2",
+  "name": "openbadges-validator-v2",
+  "version": "1.1.3",
   "description": "openbadges validation tools",
   "main": "index.js",
   "directories": {
     "test": "test"
   },
   "dependencies": {
-    "dateutil": "~0.1.0",
-    "dataurl": "~0.1.0",
     "async": "~0.2.5",
-    "jws": "~3.1.0",
+    "dataurl": "~0.1.0",
+    "dateutil": "~0.1.0",
     "deep-equal": "0.0.0",
+    "jsonld": "8.3.2",
     "jsonschema": "1.1.0",
-    "jsonld": "8.3.2"
+    "jws": "^3.2.3"
   },
   "devDependencies": {
+    "jake": "10.8.7",
     "nock": "13.5.0",
-    "tap": "18.6.1",
-    "underscore": "1.13.6",
     "sinon": "17.0.1",
-    "jake": "10.8.7"
+    "tap": "18.6.1",
+    "underscore": "1.13.6"
   },
   "scripts": {
     "test": "node node_modules/tap/bin/tap test/local/*"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/mozilla/openbadges-validator.git"
+    "url": "git://github.com/openlearnbadges/openbadges-validator-v2"
   },
   "keywords": [
     "openbadges-validator",
     "validation"
   ],
   "author": "Brian J. Brennan",
-  "license": "MPL 2.0",
+  "license": "MPL-2.0",
   "readmeFilename": "README.md",
   "gitHead": "898ea511952e2eda151e484c0b074164139bbe3e"
 }

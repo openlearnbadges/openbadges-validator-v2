@@ -1,6 +1,6 @@
-node_modules
+/node_modules/
 cover_html
 .coverage_data
-.idea
-.vscode
-.package-lock.json
+.idea/
+.vscode/
+package-lock.json
