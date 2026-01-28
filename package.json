@@ -11,7 +11,7 @@
     "dataurl": "~0.1.0",
     "dateutil": "~0.1.0",
     "deep-equal": "0.0.0",
-    "jsonld": "8.3.2",
+    "jsonld": "^9.0.0",
     "jsonschema": "1.1.0",
     "jws": "^3.2.3"
   },
@@ -19,7 +19,7 @@
     "jake": "10.8.7",
     "nock": "13.5.0",
     "sinon": "17.0.1",
-    "tap": "18.6.1",
+    "tap": "^21.5.0",
     "underscore": "1.13.6"
   },
   "scripts": {
